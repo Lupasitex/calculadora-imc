@@ -3,6 +3,9 @@
 double calcularImc(double pesoKg, double estaturaM) {
     return pesoKg / (estaturaM * estaturaM);
 }
+double librasAKilogramos(double libras) {
+    return libras * 0.4536;
+}
 std::string clasificarImc(double imc) {
     if (imc < 18.5) {
         return "Bajo peso";
